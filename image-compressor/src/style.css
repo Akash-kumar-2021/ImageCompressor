@@ -1,0 +1,52 @@
+.App
+{
+    width: 90%;
+    height:600px;
+    margin: auto;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.img-container
+{
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+img 
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:10px;
+}
+.btn
+{
+    display: flex;
+   justify-content: center;
+    gap: 20px;
+}
+button {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color:green;
+    color: white;
+    border-color: green;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+button:hover {
+ cursor: pointer;
+ background-color: red;
+ color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
